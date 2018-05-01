@@ -1,0 +1,26 @@
+{
+  "name": "thrive-server",
+  "version": "1.0.0",
+  "description": "Thrive app server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundmedicine/thrive-server.git"
+  },
+  "author": "Roberto Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundmedicine/thrive-server/issues"
+  },
+  "homepage": "https://github.com/soundmedicine/thrive-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "knex": "^0.14.6",
+    "nodemon": "^1.17.3",
+    "pg": "^7.4.1"
+  }
+}

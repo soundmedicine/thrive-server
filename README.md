@@ -1,2 +1,2 @@
 # thrive-server
-database built in C#
+database for Thrive application
