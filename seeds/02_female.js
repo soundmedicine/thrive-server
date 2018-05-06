@@ -4,30 +4,45 @@ exports.seed = function(knex, Promise) {
       
       let females = [{
         id: 1,
-        dateOfBirth: new Date('1982-03-03'),
-        dateOfMeasurement: new Date('2018-03-03'),
-        head: 43,
-        length: 100.1,
-        height: 151.63,
-        weight: 40
+        dateOfBirth: new Date('2016-01-25'),
+        birth: 3.325,
+        month1: 4.238,
+        month2: 5.075,
+        month4: 5.953,
+        month6: 7.343,
+        month9: 7.654,
+        month12: 8.661,
+        month15: 9.185,
+        month18: 9.752,
+        month24: 11.5
       }, {
         id: 2,
-        dateOfBirth: new Date('1983-12-28'),
-        dateOfMeasurement: new Date('2018-12-28'),
-        head: 40,
-        length: 87.12,
-        height: 160.03,
-        weight: 38.7
+        dateOfBirth: new Date('2016-09-27'),
+        birth: 3.255,
+        month1: 4,
+        month2: 4.734,
+        month4: 6.5,
+        month6: 6.96,
+        month9: 8,
+        month12: 9.015,
+        month15: 9.837,
+        month18: 9.809,
+        month24: 11
       }, {
         id: 3,
-        dateOfBirth: new Date('1979-06-07'),
-        dateOfMeasurement: new Date('2018-06-07'),
-        head: 47.5,
-        length: 97.7,
-        height: 144.7,
-        weight: 60.2
+        dateOfBirth: new Date('2015-12-19'),
+        birth: 3.315,
+        month1: 4,
+        month2: 4.394,
+        month4: 5.046,
+        month6: 6,
+        month9: 7,
+        month12: 8.066,
+        month15: 8.25,
+        month18: 8.817,
+        month24: 10
       }]
 
       return knex('female').insert(females)
-    });
-};
+    })
+}
