@@ -4,6 +4,7 @@ exports.seed = function(knex, Promise) {
       
       let males = [{
         id: 1,
+        sex: 'm',
         dateOfBirth: new Date('2016-2-25'),
         birth: 2.77,
         month1: 5,
@@ -17,6 +18,7 @@ exports.seed = function(knex, Promise) {
         month24: 13.3
       }, {
         id: 2,
+        sex: 'm',
         dateOfBirth: new Date('2015-06-11'),
         birth: 2.784,
         month1: 4.153,
@@ -30,6 +32,7 @@ exports.seed = function(knex, Promise) {
         month24: 9.5
       }, {
         id: 3,
+        sex: 'm',
         dateOfBirth: new Date('2016-01-25'),
         birth: 2.665,
         month1: 4,
