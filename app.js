@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
     res.send('HOW -DEEEE')
 })
 
-// app.use("/males", males)
+app.use("/males", males)
 app.use("/females", females)
 
 // catch 404 and forward to error handler
