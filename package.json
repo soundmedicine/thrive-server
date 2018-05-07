@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/soundmedicine/thrive-server.git"
+    "url": "git+https://github.com/soundmedicine/thrive-server.git"
   },
   "author": "Roberto Santos",
   "license": "ISC",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/soundmedicine/thrive-server#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "knex": "^0.14.6",

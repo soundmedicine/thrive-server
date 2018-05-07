@@ -2,12 +2,17 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const morgan = require("morgan")
 const app = express()
+const cors = require("cors")
 
 const males = require("./routes/males")
 const females = require("./routes/females")
 
 app.use(morgan('dev'));
 app.use(bodyParser.json())
+app.use(cors())
+app.get('/', (req, res) => {
+    res.send('HOW -DEEEE')
+})
 
 app.use("/males", males)
 app.use("/females", females)
